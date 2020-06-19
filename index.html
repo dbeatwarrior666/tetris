@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="body_wrapper">
+        <canvas id="arena" width="240" height="400"></canvas>
+        <div id="sidebar">
+
+            <div id="score">
+                <div id="score_label">Your score</div>
+                <div id="score_count"></div>
+            </div>
+
+            <div id="next_figure">
+                <div id="next_figure_label">Next Figure</div>
+                <canvas id="next_figure_field" width="200" height="200"></canvas>
+            </div>
+
+            <div id="config">
+                <div id="config_label">
+                    Configuration:
+                </div>
+                <div id="config_info">
+                    <span>↓  Drop</span>
+                    <span>→  Move right</span>
+                    <span>←  Move left</span>
+                    <span>Q  Rotate left</span>
+                    <span>W  Rotate right</span>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src='mainOOP.js'></script>
+</body>
+</html>

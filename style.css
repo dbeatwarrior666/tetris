@@ -1,0 +1,67 @@
+body {
+    background: #202028;
+    color: #fff;
+    font-family: 'Comic Sans Ms';
+    font-size: 2em;
+    text-align: center;
+}
+
+#arena {
+    border: solid .2em #cccccc;
+    border-radius: 20px;
+    height: 90vh;
+}
+
+#body_wrapper {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#sidebar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#score {
+    border: solid .2em #cccccc;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#score_count {
+    padding-top: 15px;
+}
+
+#next_figure_field {
+    border: solid .2em #cccccc;
+    border-radius: 20px;
+}
+
+#config {
+    border: solid .2em #cccccc;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#config_info {
+    display: flex;
+    flex-direction: column;
+}
+
+#config_info span {
+    display:flex;
+    justify-content: flex-start;
+}
+
+#config_label {
+    margin-bottom: 20px;
+}
+
+#next_figure_label {
+    padding-bottom: 20px;
+}
